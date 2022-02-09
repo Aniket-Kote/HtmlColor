@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.color-names {
+    background: white;
+    color: black;
+    float: left;
+    width: 20.3%;
+    margin: 1%;
+    padding: 2%;
+    margin-left: 4.5%;
+    margin-right: 3.5%;
+}
+
+.select {
+    background-color: grey;
+    height: 20%;
+    color: black;
+    margin: 4%;
+    padding: 4%;
+}
+
+@keyframes title {
+    0% {
+        color: red
+    }
+    50% {
+        color: green
+    }
+    100% {
+        color: blue
+    }
+}
+
+#title {
+    animation: title 3s infinite;
+    background-color: rgb(177, 165, 165);
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}

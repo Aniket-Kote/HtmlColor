@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML color codes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+
+</style>
+<body>
+ <center>
+       
+<h1 id="title">!!! Create your colors !!!</h1>
+<div class="select" id="select_color">
+    <h2>
+    rgb(<span id="redv" style="color:red"> 0 </span>,<span id="greenv"  style="color:green" > 0 </span>,<span id="bluev"  style="color:blue"> 0 </span>)
+    <br>
+    hexcode : #<span id="hexcodered"></span><span id="hexcodegreen"></span><span id="hexcodeblue"></span>
+    </h2>
+
+</div>
+<br>
+<div class="color-names">
+<span></span>
+    <h2 style="color:Red">Red :</h2>
+    <input type="range" id="redrange" min="0" max="255" style="width:70%"><br>
+    <span>Values : <b id="redvalue" >0</b></span>
+</div>
+
+<div class="color-names">
+    <h2 style="color:Green">Green :</h2>
+    <input type="range" id="greenrange" min="0" max="255"  style="width:70%"><br>
+    <span>Values : <b id="greenvalue" >0</b></span>
+</div>
+
+<div class="color-names">
+    <h2 style="color:Blue">Blue :</h2>
+    <input type="range" id="bluerange" min="0" max="255"  style="width:70%"><br>
+    <span>Values : <b id="bluevalue">0</b></span>
+</div>
+        
+
+
+
+ </center>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
